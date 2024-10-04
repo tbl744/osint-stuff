@@ -61,11 +61,3 @@
 
 
 
-
-
-transaction_amount = 1500
-risk_threshold = 2000
-if transaction_amount > risk_threshold
-    Print: ("high risk transaction")
-else:
-    print: ("transation is within safe limits")
